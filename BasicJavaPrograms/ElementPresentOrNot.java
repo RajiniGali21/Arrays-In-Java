@@ -1,8 +1,9 @@
-package com.kn.arrays;
-
+package com.kn.Arrays;
 import java.util.Scanner;
+public class ElementPresentOrNot 
+{
 
-public class Task7 {
+
 
 	public static void main(String[] args) 
 	{
@@ -20,7 +21,7 @@ public class Task7 {
 		}
 		System.out.println("enter the element to be found = ");
 		int ele = scan.nextInt();
-		boolean  flag = ElementPresentOrNot(arr,ele);
+		boolean  flag = ElementPresentOrNot2(arr,ele);
 		if(flag)
 		{
 			System.out.println("element "+ele+" is found" );
@@ -30,10 +31,10 @@ public class Task7 {
 			System.out.println("element "+ele +" is not found");
 		}
 		scan.close();
-		
+
 	}
 
-	private static boolean ElementPresentOrNot(int[] arr, int ele) 
+	private static boolean ElementPresentOrNot2(int[] arr, int ele) 
 	{
 		for(int i=0;i<arr.length;i++)
 		{
@@ -45,7 +46,9 @@ public class Task7 {
 		return false;
 	}
 
-	
-	
-	
+
+
+
 }
+
+	

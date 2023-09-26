@@ -1,8 +1,8 @@
-package com.kn.arrays;
+package com.kn.Arrays;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class DivisibleBy5 {
 
 	public static void main(String[] args) 
 	{
@@ -21,10 +21,10 @@ public class Task4 {
 		divisibleByFive(arr);
 		scan.close();
 	}
-		
-		
 
-	
+
+
+
 	//		array traversing
 	public static void divisibleByFive(int[] arr)
 	{
@@ -41,8 +41,8 @@ public class Task4 {
 			System.out.println(arr[i]+" = is not divisible by 5 ");
 		}
 	}
-		
+
 	}
-	
+
 
 }
